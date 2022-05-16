@@ -10,7 +10,7 @@ This project is dedicated to predict future performance of sustainability scores
 The score of the prediction could help to project the performances of cities in china and help to identify potential improvements.
 
 ## How this work 
-By using the k neibour algorthim, this project successfully could predict sustainability index for cities in China with an accuracy of 99%. 
+By using the k neighbour algorthim, this project successfully could predict sustainability index for cities in China with an accuracy of 99%. 
 Start by modifiy the "test" xlsx file and enter the data for 17 labels of the city you want to predict. 
 
 ## Results 
