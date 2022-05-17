@@ -13,6 +13,23 @@ The score of the prediction could help to project the performances of cities in 
 By using the k neighbour algorthim, this project successfully could predict sustainability index for cities in China with an accuracy of 99%. 
 Start by modifiy the "test" xlsx file and enter the data for 17 labels of the city you want to predict. 
 
+
+```mermaid
+graph TD;
+    China_statistical_book-->17labels;
+    China_statistical_book-->Score;
+    17labels--> K_neighbours_algorthim;
+    Score--> K_neighbours_algorthim;
+    K_neighbours_algorthim--> Predict_score_ForFuture;
+    
+    
+    
+```
+
+
+
+
+
 ## Results 
 
 ![image](https://user-images.githubusercontent.com/39557261/168578041-ad313b58-f297-4714-93c9-04a02fa0320c.png)
