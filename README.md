@@ -19,7 +19,7 @@ graph TD;
     China_statistical_book-->17labels;
     China_statistical_book-->Sustainability_Score;
     17labels--> K_neighbours_algorthim;
-    Score--> K_neighbours_algorthim;
+    Sustainability_Score--> K_neighbours_algorthim;
     K_neighbours_algorthim--> Predicted_score_ForFuture;
     
     
